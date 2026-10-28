@@ -1,13 +1,16 @@
-# Linux downloads
+# YapYur for Linux — Firefox
 
-Put the Linux build archive, AppImage, or package in this folder. The website automatically links to the latest-named downloadable file in this folder.
+The Linux version of YapYur is intended to run as a Firefox add-on.
 
-Recommended filename: `YapYur-Linux.AppImage`
+## Install the add-on
 
-## Installation tutorial
+1. Open Firefox.
+2. Download the YapYur Firefox add-on from this folder. It should be a Firefox-compatible `.xpi` file.
+3. Open Firefox's menu → **Add-ons and themes**, or press `Ctrl+Shift+A`.
+4. Open the gear menu and choose **Install Add-on From File…**.
+5. Select the downloaded `.xpi` file and confirm.
+6. Visit https://yapper.website and refresh, then open YapYur's settings.
 
-- **AppImage:** download it, open file Properties → Permissions, allow executing the file as a program, then launch it.
-- **.deb:** open it with your distribution's software installer if your distro supports Debian packages.
-- **.tar.gz / .zip:** extract it and follow the README shipped with the build.
+## Important
 
-Use the instructions bundled with the actual package if its installation steps differ.
+The Linux download must be a built Firefox-compatible `.xpi` package for this tutorial to work. Upload the add-on package to this folder; the website will link to it automatically. If Firefox rejects the file, verify that it was packaged for Firefox and came from the official YapYur project.
