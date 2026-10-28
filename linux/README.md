@@ -1,16 +1,14 @@
-# YapYur for Linux — Firefox
+# YapYur for Linux — ZIP package (Firefox)
 
-The Linux version of YapYur is intended to run as a Firefox add-on.
+The Linux download is a ZIP archive. Extract it first, then follow the instructions for the files inside.
 
-## Install the add-on
+## Install / run
 
-1. Open Firefox.
-2. Download the YapYur Firefox add-on from this folder. It should be a Firefox-compatible `.xpi` file.
-3. Open Firefox's menu → **Add-ons and themes**, or press `Ctrl+Shift+A`.
-4. Open the gear menu and choose **Install Add-on From File…**.
-5. Select the downloaded `.xpi` file and confirm.
-6. Visit https://yapper.website and refresh, then open YapYur's settings.
+1. Open Firefox and download the YapYur ZIP package from the website.
+2. Open your Downloads folder and extract the ZIP using your file manager's **Extract Here** or **Extract** option.
+3. Open the extracted folder and read any included README or instructions.
+4. If it contains a Firefox extension source folder with `manifest.json`, open `about:debugging#/runtime/this-firefox` in Firefox, choose **Load Temporary Add-on…**, and select that `manifest.json` file. This is a temporary load and may need to be repeated after Firefox restarts.
+5. If it contains a userscript or another package format, follow the instructions included in the ZIP instead.
+6. Visit https://yapper.website, refresh the page, and check YapYur's settings.
 
-## Important
-
-The Linux download must be a built Firefox-compatible `.xpi` package for this tutorial to work. Upload the add-on package to this folder; the website will link to it automatically. If Firefox rejects the file, verify that it was packaged for Firefox and came from the official YapYur project.
+**Note:** a ZIP is only an archive, not automatically an installable Firefox add-on. The correct installation steps depend on the files included inside it.
