@@ -1,12 +1,13 @@
-# YapYur for macOS — Safari extension
+# YapYur Mac (Safari) — Install
 
-1. Install the free Xcode app from the Mac App Store.
-2. Download and extract the YapYur macOS source package.
-3. Open the included `.xcodeproj` or `.xcworkspace` in Xcode.
-4. Select the YapYur app/extension scheme and choose **My Mac** as the run destination.
-5. In **Signing & Capabilities**, choose your Apple ID's **Personal Team** if signing is requested. A paid developer membership is not required for local development and testing.
-6. Press **Run** to build and launch the containing app.
-7. In Safari, open **Settings → Extensions**, enable YapYur, and approve the permissions needed for Yapper.
-8. Visit https://yapper.website and refresh.
+1. Extract the **YapYur Mac** folder.
+2. Install **Xcode** from the Mac App Store. Open it once and accept the license.
+3. Double-click **Build-Safari-Extension.command**.
+4. Open the generated **YapYur-Safari-Xcode** project in Xcode.
+5. Open **Signing & Capabilities** and select your Apple team (**Personal Team** is fine).
+6. Select the **macOS** target and click **Run**.
+7. In Safari, open **Settings → Extensions** and enable **YapYur**.
+8. Allow access to **yapper.website** and **yapin.gg**.
+9. Open Yapper / Yapin’ and **refresh**.
 
-**Important:** the source archive needs to include the Xcode project/workspace and extension source. A ZIP containing only a prebuilt extension is not enough for the Xcode build steps. Locally built extensions may need to be re-enabled after rebuilding.
+**Troubleshooting:** If the build script is blocked by macOS, make sure you extracted the full YapYur Mac folder and follow any macOS security prompts. Xcode may ask you to select an Apple team for local signing.
